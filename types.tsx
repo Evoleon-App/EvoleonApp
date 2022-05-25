@@ -16,7 +16,7 @@ export type TabOneParamList = {
 
 export type DrawerParamList = {
   Database: undefined;
-  FileSystem: undefined;
+  MyAccount: undefined;
   Clients: undefined;  
 };
 
@@ -24,8 +24,8 @@ export type DatabaseParamList = {
   DatabaseScreen: undefined;
 };
 
-export type FileSystemParamList = {
-  FileSystemScreen: undefined;
+export type MyAccountParamList = {
+  MyAccountScreen: undefined;
 };
 
 export type ClientsParamList = {

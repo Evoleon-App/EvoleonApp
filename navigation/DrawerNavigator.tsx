@@ -3,9 +3,9 @@ import { createDrawerNavigator } from '@react-navigation/drawer';
 import * as React from 'react';
 
 import DatabaseScreen from '../screens/DatabaseScreen';
-import FileSystemScreen from '../screens/FileSystemScreen';
+import MyAccountScreen from '../screens/MyAccountScreen';
 import ClientsScreen from '../screens/ClientsScreen';
-import { DrawerParamList, DatabaseParamList, FileSystemParamList, ClientsParamList } from '../types';
+import { DrawerParamList, DatabaseParamList, MyAccountParamList, ClientsParamList } from '../types';
 
 const Drawer = createDrawerNavigator<DrawerParamList>();
 
@@ -16,8 +16,8 @@ export default function DrawerNavigator() {
         name="Database"
         component={DatabaseNavigator}/>
       <Drawer.Screen
-        name="FileSystem"
-        component={FileSystemNavigator}
+        name="MyAccount"
+        component={MyAccountNavigator}
       />
       <Drawer.Screen
         name="Clients"
@@ -40,16 +40,16 @@ function DatabaseNavigator() {
   )
 }
 
-const FileSystemStack = createStackNavigator<FileSystemParamList>();
+const MyAccountStack = createStackNavigator<MyAccountParamList>();
 
-function FileSystemNavigator() {
+function MyAccountNavigator() {
   return (
-    <FileSystemStack.Navigator>
-      <FileSystemStack.Screen
-        name="FileSystemScreen"
-        component={FileSystemScreen}
+    <MyAccountStack.Navigator>
+      <MyAccountStack.Screen
+        name="MyAccountScreen"
+        component={MyAccountScreen}
       />
-    </FileSystemStack.Navigator>
+    </MyAccountStack.Navigator>
   )
 }
 

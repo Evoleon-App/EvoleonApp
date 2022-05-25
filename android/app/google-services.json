@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "28830424326",
+    "project_id": "sit-22t1-evolean-9396038",
+    "storage_bucket": "sit-22t1-evolean-9396038.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:28830424326:android:78b4e410e6db8585031287",
+        "android_client_info": {
+          "package_name": "com.grichmondprivate.expohamburgermenutemplate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "28830424326-90kb8opqjq7o61ua3fa9cgr99fj28a92.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.grichmondprivate.expohamburgermenutemplate",
+            "certificate_hash": "185064f4bc1c216dace29d2f715994a46b6f976b"
+          }
+        },
+        {
+          "client_id": "28830424326-hfou87j4113esa490l75m2ull3kmnau0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFtzZxGaEgapL0AJylzu5aSjPIg4hU8Dw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "28830424326-hfou87j4113esa490l75m2ull3kmnau0.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "28830424326-sfmbd7n94dsokjg4mfathdq2g5edg9k4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "host.exp.exponent"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
